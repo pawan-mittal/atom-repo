@@ -1,0 +1,16 @@
+{
+    "name": "atom-repo",
+    "main": "./lib/atom-repo",
+    "version": "1.0.0",
+    "description": "AEM repo tool support for Atom",
+    "keywords": [
+    ],
+    "repository": "https://git.corp.adobe.com/bsoin/atom-repo",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {
+        "shelljs": "0.7.6"
+    }
+}

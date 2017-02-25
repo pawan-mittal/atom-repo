@@ -1,0 +1,27 @@
+{
+    "context-menu": {
+        ".tree-view .file, .tree-view .directory": [
+            {
+                "label": "REPO: get",
+                "command": "atom-repo:get"
+            }
+        ],
+        ".tree-view .file": [
+            {
+                "label": "REPO: put",
+                "command": "atom-repo:put"
+            }
+        ]
+    },
+    "menu": [
+        {
+            "label": "REPO",
+            "submenu": [
+                {
+                    "label": "Toggle synchronization",
+                    "command": "atom-repo:toggleSynchronization"
+                }
+            ]
+        }
+    ]
+}
