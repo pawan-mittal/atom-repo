@@ -1,5 +1,10 @@
-# atom-repo package
+# atom-repo
 
-A short description of your package.
+This package enables simple support for repo (https://github.com/Adobe-Marketing-Cloud/tools/tree/master/repo) in Atom.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+Supported operations:
+ * Get - uses `repo get` to fetch selected file or folder from AEM
+ * Put - uses `repo put` to upload selected file to AEM
+ 
+ Enabling synchronization in REPO menu runs `repo put` whenever file is saved.
+ 
