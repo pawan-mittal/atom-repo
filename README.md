@@ -8,3 +8,13 @@ Supported operations:
  
  Enabling synchronization in REPO menu runs `repo put` whenever file is saved.
  
+### Installation
+
+Make sure repo is installed, then follow these steps to install atom-repo package:
+
+```sh
+cd ~/.atom/packages
+git clone https://github.com/bsoin/atom-repo.git
+cd atom-repo
+npm install
+```
