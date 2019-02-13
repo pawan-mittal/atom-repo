@@ -14,7 +14,7 @@ Make sure repo is installed, then follow these steps to install atom-repo packag
 
 ```sh
 cd ~/.atom/packages
-git clone https://github.com/bsoin/atom-repo.git
+git clone https://github.com/pawan-mittal/atom-repo.git
 cd atom-repo
 npm install
 ```
